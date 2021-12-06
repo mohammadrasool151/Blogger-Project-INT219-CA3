@@ -29,4 +29,41 @@ blogBtn4.onclick=function(){
     blogModal4.style.display="block";
 }
 
+// var yesBtn=document.getElementsByClassName("pad-div");
+// yesBtn.addEventListener("click",function(){
+//   alert("Sorry, you are not able to delete this post");
+// });
+var yesBtn=document.getElementById("del1");
+yesBtn.addEventListener("click",expFunc);
+function expFunc(){
+  console.log("yooo");
+  alert("Sorry you can't delete this post for security reasons!");
+}
 
+var yesBtn=document.getElementById("del2");
+yesBtn.addEventListener("click",expFunc);
+function expFunc(){
+  console.log("yooo");
+  alert("Sorry you can't delete this post for security reasons!");
+}
+
+var yesBtn=document.getElementById("del3");
+yesBtn.addEventListener("click",expFunc);
+function expFunc(){
+  console.log("yooo");
+  alert("Sorry you can't delete this post for security reasons!");
+}
+
+var yesBtn=document.getElementById("del4");
+yesBtn.addEventListener("click",expFunc);
+function expFunc(){
+  console.log("yooo");
+  alert("Sorry you can't delete this post for security reasons!");
+}
+
+var yesBtn=document.getElementById("del5");
+yesBtn.addEventListener("click",expFunc);
+function expFunc(){
+  console.log("yooo");
+  alert("Sorry you can't delete this post for security reasons!");
+}
